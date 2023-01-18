@@ -1,0 +1,40 @@
+.login-register-nav {
+    --nav-height: 50px;
+    background-color: var(--secondary-color);
+    height: var(--nav-height);
+    width: 60%;
+    border-radius: var(--nav-height);
+    margin: 0 auto;
+    line-height: var(--nav-height);
+    margin-bottom: 30px;
+    margin-top: -30px;
+    position: relative;
+    user-select: none;
+}
+.login-register-nav__labels {
+    display: flex;
+    justify-content: center;
+}
+.login-register-nav__label {
+    flex: 1;
+    text-align: center;
+    color: var(--primary-text-color);
+}
+.login-register-nav__layer {
+    --nav-layer-height: 40px;
+    position: absolute;
+    background-color: var(--primary-color);
+    height: var(--nav-layer-height);
+    top: 50%;
+    transform: translate(3%, -50%);
+    border-radius: var(--nav-layer-height);
+    width: 50%;
+    text-align: center;
+    line-height: var(--nav-layer-height);
+    color: var(--text-color-3);
+    transition: all 0.25s;
+    user-select: none;
+}
+.in_register .login-register-nav__layer{
+    transform: translate(97%, -50%);
+}

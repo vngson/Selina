@@ -1,0 +1,69 @@
+.user-card {
+    border: 1px solid var(--border-color-1);
+    margin-bottom: 20px;
+    border-radius: 36px;
+}
+.user-card__sub-area-top {
+    padding: 20px 0;
+    margin: 0 30px;
+    border-bottom: 1px solid var(--border-color-1);
+    font-size: 20px;
+}
+.user-card__sub-area-mid {
+    height: 220px;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--border-color-1);
+}
+.user-card__user-infos{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.user-card__user-info > div {
+    margin: 6px 0;
+}
+.user-card__avt-area{
+    height: 100%;
+}
+.user-card__avt {
+    height: 100%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.user-card__buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 20px 20px 0;
+    color: var(--white-color)
+}
+.user-card__button {
+    height: 50px;
+    width: 220px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.25s;
+    user-select: none;
+    cursor: pointer;
+}
+.user-card__button-icon {
+    display: flex;
+    align-items: center;
+    margin-right: 12px;
+}
+.user-card__unlock-button {
+    background-color: var(--green-color);
+}
+.user-card__unlock-button:hover {
+    background-color: var(--green-highlight-color);
+}
+.user-card__ban-button {
+    background-color: var(--red-color);
+}
+.user-card__ban-button:hover {
+    background-color: var(--red-highlight-color);
+}

@@ -1,0 +1,14 @@
+.home-body__add-product-btn {
+    background-color: var(--blue-primary-color);
+    height: 40px;
+    padding: 0 16px;
+    border-radius: 40px;
+    text-align: center;
+    color: var(--white-color);
+    line-height: 40px;
+    user-select: none;
+    transition: background-color 0.25s;
+}
+.home-body__add-product-btn:hover {
+    background-color: var(--blue-primary-highlight-color);
+}

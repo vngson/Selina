@@ -1,0 +1,83 @@
+.horizontal-book-card {
+    width: 100%;
+    border: 1px solid var(--border-color-1);
+    border-radius: 36px;
+    margin-bottom: 12px;
+}
+.horizontal-book-card__sub-area:first-child {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    margin: 0 30px;
+    border-bottom: 1px solid var(--border-color-1);
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.horizontal-book-card__shop-avt-area {
+    height: 100%;
+}
+.horizontal-book-card__shop-avt-img {
+    height: 100%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+.horizontal-book-card__book-area {
+    display: flex;
+    padding: 0 30px;
+}
+.horizontal-book-card__book-img-area {
+    height: 200px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+    margin-right: 20px;
+}
+.horizontal-book-card__book-img {
+    height: 100%;
+}
+.horizontal-book-card__book-info {
+    font-size: 18px;
+}
+.horizontal-book-card__book-info-item {
+    margin: 4px 0;
+}
+.horizontal-book-card__book-info-item--font-large {
+    font-size: 19px;
+}
+.horizontal-book-card__buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    padding: 20px 20px 20px 0;
+    border-top: 1px solid var(--border-color-1);
+}
+.horizontal-book-card__button { 
+    height: 50px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white-color);
+    margin-left: 20px;
+    padding: 0 16px;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.25s;
+}
+.horizontal-book-card__button-icon {
+    margin-right: 12px;
+    display: flex;
+    justify-content: center;
+}
+.horizontal-book-card__approve-btn {
+    background-color: var(--green-color);
+}
+.horizontal-book-card__approve-btn:hover {
+    background-color: var(--green-highlight-color);
+}
+.horizontal-book-card__reject-btn {
+    background-color: var(--red-color);
+}
+.horizontal-book-card__reject-btn:hover {
+    background-color: var(--red-highlight-color);
+}

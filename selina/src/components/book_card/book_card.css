@@ -1,0 +1,45 @@
+.book-card {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white-background-color);
+    border-radius: 8px;
+    height: 350px;
+    padding: 20px;
+    width: 100%;
+    align-items: center;
+    transition: 0.25s;
+    box-shadow: -5px 5px 10px 3px rgba(0, 0, 0, 0.15);
+    color: var(--black-color);
+}
+.book-card:hover {
+    transform: scale(1.05);
+}
+.book-card__img-area,
+.book-card__img {
+    width: 100%;
+}
+.book-card__img-area {
+    min-height: 75%;
+    margin-bottom: 4px;
+    user-select: none;
+}
+.book-card__img {
+    height: 100%;
+}
+.book-card__shortcut-info {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.book-card__info {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    line-clamp: 1; 
+    -webkit-box-orient: vertical;
+    margin: 4px 0;
+}

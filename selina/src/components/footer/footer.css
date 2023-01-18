@@ -1,0 +1,20 @@
+.footer {
+    height: 100px;
+    background-color: var(--background-color-highlight-4);
+    display: flex;
+    align-items: center;
+    user-select: none;
+}
+.footer__item {
+    height: 100%;
+    flex: 0 0 30%;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+}
+.footer__logo {
+    height: 90%;
+}
+.footer__trademark {
+    color: var(--text-color-3);
+}

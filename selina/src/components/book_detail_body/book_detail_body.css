@@ -1,0 +1,9 @@
+.book-detail-body{
+    width: 100%;
+    padding: 30px 40px 30px;
+}
+.book-detail-body__loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,43 @@
+.checkout-info-card {
+    border-radius: 20px;
+    border: 1px solid var(--border-highlight-color-1);
+    user-select: none;
+}
+.checkout-info-card__seller-tag {
+    padding: 16px 20px;
+}
+.checkout-info-card__books {
+    margin: 0 20px;
+}
+.checkout-info-card__book {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 0;
+}
+.checkout-info-card__book:not(:first-of-type) {
+    border-top: 1px solid var(--border-color-1);
+}
+.checkout-info-card__book-group {
+    display: flex;
+}
+.checkout-info-card__book-img,
+.checkout-info-card__book-img img {
+    height: 120px;
+}
+.checkout-info-card__book-info {
+    margin-left: 12px;
+}
+.checkout-info-card__book-name {
+    margin-bottom: 12px;
+    font-size: 1.1rem;
+}
+.checkout-info-card__total {
+    padding: 16px 24px;
+    text-align: right;
+    border-top: 3px solid var(--border-highlight-color-1);
+}
+.checkout-info-card__total b {
+    color: var(--red-highlight-color);
+    margin-left: 12px;
+}

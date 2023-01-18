@@ -1,0 +1,102 @@
+.form {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.form__form-input{
+    position: relative;
+}
+.form__input {
+    height: 50px;
+    width: 100%;
+    padding-left: 30px;
+    border: 2px solid var(--primary-color);
+    border-radius: 50px;
+    outline: none;
+    transition: all 0.25s;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--text-color-1);
+    margin-bottom: 20px;
+    margin-top: 12px;
+}
+.error .form__input {
+    border-color: var(--error-color)
+}
+
+.form__input:focus {
+    border-color: var(--primary-color-highlight);
+}
+.form__input::placeholder {
+    color: var(--text-color-2);
+}
+.form__submit-btn {
+    --button-height: 50px;
+    height: var(--button-height);
+    width: 200px;
+    background-color: var(--primary-color);
+    border-radius: 50px;
+    text-align: center;
+    line-height: var(--button-height);
+    color: var(--text-color-3);
+    margin-left: auto;
+    margin-top: 20px;
+    transition: color 0.25s;
+    user-select: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form__submit-btn:hover {
+    background-color: var(--primary-color-highlight);
+}
+.error .form__message {
+    color: var(--error-color);
+    height: 20px;
+}
+.error .form__submit-btn{
+    margin-top: 10px;
+}
+.form__forgot-password {
+    text-align: right;
+}
+.form__nav-to-forgot-password {
+    margin: 12px 16px 12px 0;
+    color: var(--black-color);
+}
+.form__input-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.form__input-wrapper-body {
+    display: flex;
+    flex: 0 0 75%;
+    justify-content: space-between;
+}
+.form__input-wrapper-label {
+    margin-right: 20px;
+    cursor: pointer;
+}
+.form__input-radio-wrapper {
+    height: 36px;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    padding: 0 12px;
+    color: var(--white-color);
+    margin: 0 8px;
+    cursor: pointer;
+}
+.form__input-radio {
+    margin-right: 8px;
+    width: 16px;
+    height: 16px;
+}
+.form__input-label {
+    cursor: pointer;
+}

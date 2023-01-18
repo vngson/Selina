@@ -1,0 +1,119 @@
+.book-detail-info {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+.book-detail-info__counter-num {
+    user-select: none;
+}
+.book-detail-info__sub-area {
+    flex: 1;
+}
+.book-detail-info__img-area,
+.book-detail-info__preview-img {
+    width: 100%;
+}
+.book-detail-info__img-area {
+    border: 1px solid #ccc;
+    user-select: none;
+}
+.book-detail-info__info-area {
+    padding: 0 40px;
+}
+.book-detail-info__info-area {
+    width: 100%;
+}
+.book-detail-info__shop-label {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.book-detail-info__shop-img {
+    width: 80px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+.book-detail-info__name {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.book-detail-info__price {
+    font-size: 30px;
+    color: var(--red-color);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.book-detail-info__author,
+.book-detail-info__quantity,
+.book-detail-info__desc {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.book-detail-info__quantity,
+.book-detail-info__desc {
+    color: var(--text-color-5);
+}
+.book-detail-info__desc {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 10;
+    line-clamp: 10; 
+    -webkit-box-orient: vertical;
+}
+.book-detail-info__take-an-order-area{
+    display: flex;
+    user-select: none;
+}
+.book-detail-info__counter{
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid var(--border-color-1);
+    padding: 8px 12px;
+    border-radius: 50px;
+}
+.book-detail-info__counter-btn,
+.book-detail-info__counter-item {
+    display: flex;
+    align-items: center;
+}
+.book-detail-info__counter-btn{
+    padding: 8px;
+}
+.book-detail-info__counter-num {
+    border: unset;
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+}
+.book-detail-info__take-an-order-area {
+    height: 50px;
+}
+.book-detail-info__submit {
+    margin-left: 60px;
+    text-align: center;
+    color: var(--white-color);
+    background-color: var(--green-color);
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.25s;
+    border-radius: 50px;
+}
+.book-detail-info__submit:hover {
+    background-color: var(--green-highlight-color);
+}
+.book-detail-info__submit.blocked {
+    opacity: 0.8;
+}
+.book-detail-info__submit.blocked:hover {
+    background-color: var(--green-color);
+}

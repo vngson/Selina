@@ -1,0 +1,8 @@
+.admin-home {
+    height: calc(100vh - 90px - 40px);
+    overflow-y: scroll;
+}
+.admin-home__loading {
+    display: flex;
+    justify-content: center;
+}
